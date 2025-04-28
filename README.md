@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
 
-## Project info
+# MobiusEngine.ai Landing Page
 
-**URL**: https://lovable.dev/projects/85b98f86-9d08-4a46-a3fe-c85e950787b2
+This repository contains a recreation of the MobiusEngine.ai landing page built with React, TypeScript, and Tailwind CSS.
 
-## How can I edit this code?
+## Tech Stack
 
-There are several ways of editing your application.
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
 
-**Use Lovable**
+## Project Structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/85b98f86-9d08-4a46-a3fe-c85e950787b2) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+mobiusengine-landing-page/
+│
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Features.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Logo.tsx
+│   │   └── MobileNav.tsx
+│   ├── pages/
+│   │   └── Index.tsx
+│   └── styles/
+│       └── main.css
+├── index.html
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+## Setup Instructions
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
 
-**Use GitHub Codespaces**
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Installation
 
-## What technologies are used for this project?
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd mobiusengine-landing-page
+   ```
 
-This project is built with:
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Start the development server:
+   ```
+   npm run dev
+   ```
 
-## How can I deploy this project?
+4. Open your browser and navigate to `http://localhost:8080`
 
-Simply open [Lovable](https://lovable.dev/projects/85b98f86-9d08-4a46-a3fe-c85e950787b2) and click on Share -> Publish.
+### Building for Production
 
-## Can I connect a custom domain to my Lovable project?
+1. Create a production build:
+   ```
+   npm run build
+   ```
 
-Yes, you can!
+2. The built files will be in the `dist` directory, which can be deployed to any static hosting service like Vercel, Netlify, or GitHub Pages.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project can be easily deployed to platforms such as:
+
+- Vercel
+- Netlify
+- GitHub Pages
+- Cloudflare Pages
+
+Simply connect your repository to any of these platforms and follow their deployment instructions.
+
+## License
+
+All rights reserved.
+
