@@ -19,11 +19,7 @@ const CoverPage = () => {
               Based on anonymized 2023/2024 client success rates
             </p>
             <div className="flex items-center space-x-2">
-              <img 
-                src="/lovable-uploads/5cab007d-8541-4601-bff9-9da222e97687.png" 
-                alt="Mobius Logo" 
-                className="w-8 h-8"
-              />
+              <LayoutTemplate className="w-8 h-8 text-blue-500" />
               <span className="text-gray-700 font-medium">MOBIUSENGINE.AI</span>
             </div>
           </div>
@@ -32,8 +28,8 @@ const CoverPage = () => {
           <div className="relative">
             <div className="w-full h-96 bg-gray-100 rounded-lg overflow-hidden">
               <img
-                src="/lovable-uploads/5cab007d-8541-4601-bff9-9da222e97687.png"
-                alt="Office Building"
+                src="/lovable-uploads/d464f6a7-6152-43eb-a6d4-3c3557a19ecb.png"
+                alt="Hiring Trends Cover"
                 className="w-full h-full object-cover"
               />
             </div>
